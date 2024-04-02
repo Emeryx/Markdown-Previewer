@@ -1,0 +1,44 @@
+$background-clr:#8075FF
+$div-clr: #fdf7ff
+$black: #211A1D
+
+@mixin side-border
+    border: 4px solid $black
+    border-radius: 16px
+
+body
+    background-color: $background-clr
+.App
+    display: flex
+    flex-direction: row
+    margin: 20px
+
+#editor
+    @include side-border
+    background-color: $div-clr
+    color: $black
+    resize: none
+    height: auto
+    width: 25vw
+    position: fixed
+    white-space: nowrap
+    bottom: 20px
+    top: 20px
+    font-size: 20px
+    padding: 20px
+
+#preview
+    @include side-border
+    background-color: $div-clr
+    color: $black
+    width: 60vw
+    min-height: 100vh
+    margin-left: auto
+    font-size: 20px
+    padding: 40px
+    img
+      max-width: 500px
+
+@media (max-width: 726px)
+    #preview
+        width: 55vw
