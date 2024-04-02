@@ -1,0 +1,2 @@
+body{background-color:#8075ff}.App{display:flex;flex-direction:row;margin:20px}#editor{bottom:20px;height:auto;padding:20px;position:fixed;resize:none;top:20px;white-space:nowrap;width:25vw}#editor,#preview{background-color:#fdf7ff;border:4px solid #211a1d;border-radius:16px;color:#211a1d;font-size:20px}#preview{margin-left:auto;min-height:100vh;padding:40px;width:60vw}#preview img{max-width:500px}@media(max-width:1410px){#preview{width:45vw}#editor{width:20vw}}@media(max-width:596px){#preview{width:40vw}#editor{width:15vw}}
+/*# sourceMappingURL=main.1b9fa000.css.map*/
