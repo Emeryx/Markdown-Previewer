@@ -21,3 +21,14 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+src/logo.svg
+src/setupTests.ts
+src/reportWebVitals.ts
+src/react-app-env.d.ts
+.gitignore
+src/index.css
+public/favicon.ico
+public/logo192.png
+public/logo512.png
+public/robots.txt
+.gitignore
